@@ -46,7 +46,7 @@ Paso 5. En la barra superior derecha da clic en el icono de **AWS Cloud Shell**,
 
 Paso 6. En la terminal vamos a **descargar los archivos**. **Escribe** el siguiente comando o puedes **copiarlo** si prefieres y da **Enter**:
 
-```aws s3 cp s3://demoappj864/cambiarURL/ . --recursive```
+```aws s3 cp s3://labs.netec.com/courses/AWS-ECS/v0.0.1/demoapp . --recursive```
 
 **NOTA:** El comando descargar los archivos de un bucket de S3 preparado para el curso:
 
@@ -108,6 +108,7 @@ CMD [ "apachectl", "-D", "FOREGROUND" ]
 Paso 3. Cuando ya estes listo ejecuta las siguientes combinaciones de teclas en el siguiente orden:
 
 **```CTRL + O```** **`Enter`** `Para guardar el archivo`
+
 **```CTRL + X```** **`Enter`** `Para salir del archivo`
 
 **NOTA:** Puedes escribir el siguiente comando en cualquier momento para verificar que se haya guardado **`cat Dockerfile`**
@@ -126,7 +127,9 @@ Paso 6. Verifica la imagen creada correctamente, **copia/escribe** el siguiente 
 
 ![dockbuild1](../images/m1/img8.png)
 
-Paso 7. La imagen no podra ser probada por el momento ya que estas en la terminal de AWS. **Continua con la siguiente tarea**
+Paso 7. La imagen no podra ser probada por el momento ya que estas en la terminal de AWS. 
+
+**Continua con la siguiente tarea**
 
 **¡TAREA FINALIZADA!**
 >Haz completado la creación de la imagen del contenedor.
@@ -138,17 +141,17 @@ Paso 1. Ahora ve al buscador de AWS en la parte superior de la pantalla y escrib
 
 ![ecrrepo](../images/m1/img9.png)
 
-Paso 2. En la pagina de bienvenida del servicio da clic en el boton **Create**
+Paso 2. En la pagina de bienvenida del servicio da clic en el botón **Create**
 
-**NOTA:** Solo en caso de que no te aparezca el boton da **clic** en las **3 lineas** de la esquina **superior izquierda** luego en la sección **Private registry** opción **Repositories** finalmente clic en **Create repository**
+**NOTA:** Solo en caso de que no te aparezca el botón da **clic** en las **3 lineas** de la esquina **superior izquierda** luego en la sección **Private registry** opción **Repositories** finalmente clic en **Create repository**
 
 Paso 3. En la sección **Repository name** escribe el nombre del repositorio, puedes apoyarte de la siguiente tabla:
 
 | Propiedad| Valor | Descripcíon |
 | --- | --- | --- |
-| **Repository name** | demoappecr **Solo en caso de que no te deja crear el repositorio agregar `3 numeros aleatorios` al final** | Nombre del repositorio |
-| **Image tag mutability** | Immutable | Imagen por cada cambio o Imagen sobre escrita
-| **Encryption configuration** | AES-256 | Encripcion en sitio para las imagenes |
+| **Repository name** | **demoappecr** Solo en caso de que no te deja crear el repositorio agregar `3 numeros aleatorios` al final | Nombre del repositorio |
+| **Image tag mutability** | **Immutable** | Imagen por cada cambio o Imagen sobre escrita
+| **Encryption configuration** | **AES-256** | Encripcion en sitio para las imagenes |
 | **Image Scanning settings** | Scan on push **ON** | Activacion del escaneo de la imagen |
 
 ![ecrrepo1](../images/m1/img10.png)
@@ -157,9 +160,9 @@ Paso 4. Clic en el botón **Create** y verifica la creación exitosa:
 
 ![ecrrepo2](../images/m1/img11.png)
 
-Paso 5. Ahora **autenticate** al repositorio de **Amazon ECR** de vuelta a la terminal escribe el siguiente comando:
+Paso 5. Ahora **autenticate** al repositorio de **Amazon ECR**. De vuelta a la terminal escribe el siguiente comando:
 
-**NOTA:** Dentro del comando identifica las siguientes propiedades: **`<region>`**(2) y **`<account-id>`**(1), **Sustituyelos por los valores asignados al curso**
+**NOTA:** Dentro del siguiente comando identifica las siguientes propiedades: **`<region>`**(2) y **`<account-id>`**(1), **Sustituyelos por los valores asignados al curso**
 
 **NOTA:** Puedes edirtar primero el comando en un bloc de notas y despues pegarlo en la terminal.
 
@@ -200,7 +203,7 @@ Paso 10. Ahora de vuelta a la **interfaz** del servicio **Amazon ECR**, dentro d
 
 ![ecrrepo7](../images/m1/img16.png)
 
-Paso 11. Da clic en el nombre de la imagen **app-v1.0.0** y analiza las propiedades de la imagen denrto del servicio.
+Paso 11. Da clic en el nombre de la imagen **app-v1.0.0** y analiza las propiedades de la imagen dentro del servicio.
 
 **¡TAREA FINALIZADA!**
 >Haz finalizado la creación del repositorio en Amazon ECR, la compilación y carga de una imagen docker.
@@ -233,6 +236,6 @@ Paso 3. Ya copiado ve a la terminal de **AWS Cloud Shell** y escribe **`docker p
 **¡TAREA FINALIZADA!**
 > Haz terminado la tarea donde descargaste exitosamente la imagen desde el repositorio en **Amazon ECR**
 
-### Resultado esperado
+### Resultado final esperado
 El resultado es que la imagen se haya cargado correctamente al repositorio de **Amazon ECR**
 ![resultado](../images/m1/img20.png)
