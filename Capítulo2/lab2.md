@@ -7,10 +7,8 @@ Al finalizar la práctica, serás capaz de:
 
 
 ## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
 
-PENDIENTEEEEEEEE
-![diagrama1](../images/img1.png)
+![diagrama1](../images/m2/img0.png)
 
 ## Duración aproximada:
 - 40 minutos.
@@ -30,7 +28,7 @@ En esta tarea exploraras la cración de la funcion lambda y sus propiedades.
 
 **NOTA:** Si ya estas autenticado al laboratorio puedes avanzar al paso 4 y continuar desde ahi.
 
-Paso 1. Inicia sesión en la cuenta de AWS ![AWS] (https://us-east-2.signin.aws.amazon.com/oauth?client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=O9XOfG1TAAeweXyB0WbmZbNsRtOhuxUkQSSJyXLAzcQ&code_challenge_method=SHA-256&response_type=code&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-2_039ecdfecdcea574)
+Paso 1. Inicia sesión en la cuenta de AWS ![AWS](https://us-east-2.signin.aws.amazon.com/oauth?client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=O9XOfG1TAAeweXyB0WbmZbNsRtOhuxUkQSSJyXLAzcQ&code_challenge_method=SHA-256&response_type=code&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-2_039ecdfecdcea574)
 
 Paso 2. Dentro de la pagina usa las credenciales asignadas en el curso:
 
