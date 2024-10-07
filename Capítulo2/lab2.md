@@ -15,7 +15,7 @@ Al finalizar la práctica, serás capaz de:
 ## Tabla de ayuda:
 | Región  | Usuario |
 |---------|---------|
-| us-east-1 | student |
+| us-west-2 | student |
 
 ## Instrucciones 
 
@@ -39,7 +39,7 @@ Paso 2. Dentro de la página, usa las credenciales asignadas en el curso:
 
 Paso 3. Clic en el botón **Sign in**.
 
-Paso 4. Una vez autenticado, verifica tu región; para esta práctica lo harás en **N. Virginia**/**us-east-1**.
+Paso 4. Una vez autenticado, verifica tu región; para esta práctica lo harás en **Oregon**/**us-west-2**.
 
 ![region](../images/m1/img2.png)
 
@@ -388,6 +388,7 @@ Paso 17. Finalmente, da clic en el botón superior **Test** y verás el resultad
 > Haz completado la publicación de la actualización de la función Lambda asociándola a diferentes versiones y aliases.
 
 ### Resultado final esperado
+
 El resultado esperado es el funcionamiento correcto de todas las tareas y la ejecución de la función Lambda.
 
 ![lambda27](../images/m2/img30.png)

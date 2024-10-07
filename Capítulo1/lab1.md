@@ -14,7 +14,7 @@ Al finalizar la práctica, serás capaz de:
 ## Tabla de ayuda:
 | Región     | Usuario  |
 |------------|----------|
-| us-east-1  | student  |
+| us-west-2  | student  |
 
 ## Instrucciones 
 
@@ -36,7 +36,7 @@ Paso 2. Dentro de la página usa las credenciales asignadas en el curso:
 
 Paso 3. Clic en el botón **Sign in**
 
-Paso 4. Una vez autenticado, verifica tu región. Para esta práctica lo harás en **N. Virginia**/**us-east-1**
+Paso 4. Una vez autenticado, verifica tu región. Para esta práctica lo harás en **Oregon**/**us-west-2**
 
 ![region](../images/m1/img2.png)
 
@@ -146,6 +146,7 @@ Paso 7. La imagen no podrá ser probada por el momento, ya que estás en la term
 > Has completado la creación de la imagen del contenedor.
 
 ### Tarea 3. Creación del registro Amazon ECR y carga de la imagen.
+
 En esta tarea crearás el repositorio privado en Amazon ECR y cargarás la imagen creada en la tarea anterior al repositorio.
 
 Paso 1. Ahora ve al buscador de AWS en la parte superior de la pantalla y escribe **`Elastic Container Registry`** y da clic en el servicio.

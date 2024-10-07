@@ -4,7 +4,6 @@
 Al finalizar la práctica, serás capaz de:
 - Implementar un clúster de Amazon ECS altamente disponible.
 - Desplegar un contenedor Docker en el clúster ECS.
-- Objetivo 3.
 
 ## Objetivo Visual 
 
@@ -16,7 +15,7 @@ Al finalizar la práctica, serás capaz de:
 ## Tabla de ayuda:
 | Región | Usuario |
 | --- | --- |
-| us-east-1 | student |
+| us-west-2 | student |
 
 ## Instrucciones 
 
@@ -40,7 +39,7 @@ Paso 2. Dentro de la página usa las credenciales asignadas en el curso:
 
 Paso 3. Clic en el botón **Sign in**.
 
-Paso 4. Una vez autenticado, verifica tu región; para esta práctica lo harás en **N. Virginia**/**us-east-1**.
+Paso 4. Una vez autenticado, verifica tu región; para esta práctica lo harás en **Oregon**/**us-west-2**.
 
 ![region](../images/m1/img2.png)
 
@@ -124,6 +123,7 @@ Paso 4. Copia el valor de la propiedad **URI** y guárdalo en un bloc de notas.
 ![ecrrepo9](../images/m1/img18.png)
 
 **¡TAREA FINALIZADA!**
+
 > Haz completado la obtención y el guardado de la URI del contenedor para usar en la siguiente tarea.
 
 ### Tarea 3. Creación de la definición de la tarea (Contenedor)
@@ -351,7 +351,6 @@ Paso 9. El servicio desplegará las tareas dentro de los servidores, **espera un
 **¡TAREA FINALIZADA!**
 
 > Haz completado la creación del servicio que despliega los contenedores en los servidores EC2.
-
 
 ### Tarea 7. Prueba de la Aplicación altamente Disponible.
 
