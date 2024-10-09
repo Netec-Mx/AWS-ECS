@@ -79,11 +79,7 @@ Paso 1. Primero crearás el archivo **Dockerfile**, dentro de la terminal de AWS
 nano Dockerfile
 ```
 
-Paso 2. Dentro del archivo **copia** el siguiente código que define las instrucciones del Docker.
-
-**NOTA:** Si te aparece la siguiente imagen, da clic en el botón **Paste**
-
-![dockerfile](../images/m1/img6.png)
+Paso 2. Dentro del archivo **copia** y **pega** el siguiente código que define las instrucciones del Docker.
 
 **NOTA IMPORTANTE:** En la sección **ZONA HORARIA** del archivo, **descomenta** y **comenta** la zona adecuada a tu ubicación actual. **Si tienes dudas, pregunta al instructor**
 
@@ -111,13 +107,17 @@ EXPOSE 80
 CMD [ "apachectl", "-D", "FOREGROUND" ]
 ```
 
+**NOTA:** Si te aparece la siguiente imagen, da clic en el botón **Paste**
+
+![dockerfile](../images/m1/img6.png)
+
 Paso 3. Cuando ya estés listo, ejecuta las siguientes combinaciones de teclas en el siguiente orden:
 
 **```CTRL + O```** **`Enter`** `Para guardar el archivo`
 
 **```CTRL + X```** **`Enter`** `Para salir del archivo`
 
-**NOTA:** Puedes escribir el siguiente comando en cualquier momento para verificar que se haya guardado **`cat Dockerfile`**
+**NOTA:** Puedes escribir el siguiente comando despues de haber guardado el archivo para verificar el contenido **`cat Dockerfile`**
 
 Paso 4. Ahora compilarás la **imagen Docker** mediante el siguiente comando:
 

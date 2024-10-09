@@ -66,7 +66,7 @@ Paso 8. En la sección **Infrastructure** define lo siguiente:
 
 | Propiedad | Valor | Descripción |
 | --- | --- | ---|
-| **Infrastructure** | **Infrastructure** | Tipo de servidores a utilizar en el clúster |
+| **Infrastructure** | **Amazon EC2 instances** | Tipo de servidores a utilizar en el clúster |
 | **Auto Scaling group (ASG)** | **Create new ASG** | Instancias Amazon EC2 pago por uso |
 | **Provisioning model** | **On-demand** | Creación del grupo ASG altamente disponible |
 | **Container instance Amazon Machine Image (AMI)** | **Amazon Linux 2 (kernel 5.10)** | Tipo de AMI, siempre la más reciente |
@@ -100,7 +100,7 @@ Paso 11. Da clic en el botón **Actualizar** y después clic en el nombre del cl
 
 ![ecservice6](../images/m3/img7.png)
 
-Paso 12. Verifica que el clúster esté activo.
+Paso 12. Da clic en el nombre del cluster **AppCluster** y verifica que el clúster esté activo.
 
 ![ecservice7](../images/m3/img8.png)
 
@@ -118,7 +118,7 @@ Paso 2. Clic en el nombre de tu repositorio **demoappecr**.
 
 Paso 3. Clic en el nombre de la imagen **app-v1.0.0**.
 
-Paso 4. Copia el valor de la propiedad **URI** y guárdalo en un bloc de notas.
+Paso 4. Copia el valor de la propiedad **URI** y guárdalo en un **bloc de notas**.
 
 ![ecrrepo9](../images/m1/img18.png)
 
@@ -130,7 +130,7 @@ Paso 4. Copia el valor de la propiedad **URI** y guárdalo en un bloc de notas.
 
 En esta tarea definirás el contenedor a usar mediante la propiedad Task Definition del servicio Amazon ECS.
 
-Paso 1. En el menú lateral izquierdo da clic en la opción **Task definitions**.
+Paso 1. Repite el paso **5 de la tarea 1**. En el menú lateral izquierdo del servicio **Amazon ECS** da clic en la opción **Task definitions**.
 
 Paso 2. Ahora clic en **Create new task definition**.
 
@@ -191,7 +191,7 @@ Paso 1. En el buscador de AWS en la parte superior de la pantalla escribe **`Ela
 
 ![ec21](../images/m3/img19.png)
 
-Paso 2. En la sección de **Load Balancing** da clic en la opción **Target Groups**.
+Paso 2. En la sección de **Load Balancing** del menú lateral izquierdo da clic en la opción **Target Groups**.
 
 ![ec22](../images/m3/img20.png)
 
@@ -231,7 +231,7 @@ Paso 11. Desliza la página hacia abajo casi a la mitad para encontrar la opció
 
 ![ec27](../images/m3/img25.png)
 
-Paso 12. Configura el Target Group como lo muestra la imagen y da clic en el botón **Update**.
+Paso 12. Configura el **Target Group** como lo muestra la imagen y da clic en el botón **Update**.
 
 ![ec28](../images/m3/img26.png)
 
@@ -243,7 +243,7 @@ Paso 12. Configura el Target Group como lo muestra la imagen y da clic en el bot
 
 En la siguiente tarea asociarás el balanceador de carga para que distribuya el tráfico a los servidores registrados en el Target Group.
 
-Paso 1. Da clic en la opción **Load Balancers** de la sección **Load Balancing**.
+Paso 1. Da clic en la opción **Load Balancers** de la sección **Load Balancing** en el menú lateral izquierdo.
 
 ![ec29](../images/m3/img27.png)
 
@@ -299,17 +299,17 @@ En esta tarea crearás el servicio que desplegará la tarea en los servidores.
 
 Paso 1. Ahora ve al buscador de AWS en la parte superior de la pantalla y escribe **`Elastic Container Service`** y da clic en el servicio.
 
-Paso 2. En el menú lateral izquierdo selecciona **Clusters** y da clic en el nombre de tu clúster **AppCluster**.
+**NOTA:** En el menú lateral izquierdo selecciona **Clusters** y da clic en el nombre de tu clúster **AppCluster**.
 
-Paso 3. En la parte inferior de los detalles de tu clúster selecciona **Services** y da clic en el botón **Create**.
+Paso 2. En la parte inferior de los detalles de tu clúster selecciona **Services** y da clic en el botón **Create**.
 
 ![ecservice12](../images/m3/img13.png)
 
-Paso 4. En la sección **Environment** mantén seleccionada la opción **Launch type** y en **Launch Type** usa **EC2**.
+Paso 3. En la sección **Environment** mantén seleccionada la opción **Launch type** y en **Launch Type** usa **EC2**.
 
 ![ecservice13](../images/m3/img14.png)
 
-Paso 5. En la propiedad **Deployment configuration** define lo siguiente.
+Paso 4. En la propiedad **Deployment configuration** define lo siguiente.
 
 | Propiedad | Valor | Descripción |
 | --- | --- | ---|
@@ -321,7 +321,7 @@ Paso 5. En la propiedad **Deployment configuration** define lo siguiente.
 
 ![ecservice14](../images/m3/img15.png)
 
-Paso 6. En la sección de **Load balancing - optional** configura lo siguiente.
+Paso 5. En la sección de **Load balancing - optional** configura lo siguiente.
 
 | Propiedad | Valor | Descripción |
 | --- | --- | ---|
@@ -334,17 +334,17 @@ Paso 6. En la sección de **Load balancing - optional** configura lo siguiente.
 
 **NOTA:** El resto de los valores se quedan por defecto.
 
-Paso 7. Ahora da clic en el botón **Create**.
+Paso 6. Ahora da clic en el botón **Create**.
 
 **NOTA:** El despliegue puede tardar unos minutos. Espera el despliegue.
 
-Paso 8. Mientras se realiza la implementación, puedes dar clic en el botón de actualización.
+Paso 7. Mientras se realiza la implementación, puedes dar clic en el botón de actualización.
 
 **NOTA:** Después de unos minutos aparecerá el servicio.
 
 ![ecservice16](../images/m3/img17.png)
 
-Paso 9. El servicio desplegará las tareas dentro de los servidores, **espera unos minutos más** y verifica el estado exitoso de las 2 tareas (1 por cada servidor).
+Paso 8. El servicio desplegará las tareas dentro de los servidores, **espera unos minutos más** y verifica el estado exitoso de las 2 tareas (1 por cada servidor).
 
 ![ecservice17](../images/m3/img18.png)
 

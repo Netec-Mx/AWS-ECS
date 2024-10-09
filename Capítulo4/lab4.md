@@ -14,7 +14,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Tabla de ayuda:
 | Región | Usuario |
-| --- | --- |
+| -------| ------- |
 | us-west-2 | student |
 
 ## Instrucciones 
@@ -53,7 +53,7 @@ Paso 6. En la página de bienvenida de **GitHub**, crea una cuenta **si no tiene
 
 Paso 7. Si ya tienes una cuenta, da clic [**Aquí**](https://github.com/login) para autenticarte.
 
-Paso 8. En el panel principal de tu cuenta de GitHub, una vez autenticado, da clic en **New** o **New repository**.
+Paso 8. En el panel principal de tu cuenta de GitHub, una vez autenticado, da clic en **Create new repository** o **Create repository**.
 
 Paso 9. En la sección **Create a new repository**, configura lo siguiente:
 
@@ -75,13 +75,13 @@ Paso 12. Clic en el nombre **creating a new file**.
 
 ![git3](../images/m4/img4.png)
 
-Paso 13. Escribe el nombre del archivo **demofile.txt** y el texto **First File**, y da clic en el botón **Commit changes**.
+Paso 13. Escribe el nombre del archivo **`demofile.txt`** y el texto **`First File`**, y da clic en el botón **Commit changes**.
 
 ![git4](../images/m4/img5.png)
 
 Paso 14. Confirma la ventana emergente **Commit changes**.
 
-Paso 15. Ve al ícono de tu **perfil de GitHub**. 
+Paso 15. Ve al ícono de tu **perfil de GitHub** en la esquina superior derecha. 
 
 ![git5](../images/m4/img6.png)
 
@@ -89,7 +89,7 @@ Paso 16. En el menú, da clic en **Settings**.
 
 ![git6](../images/m4/img7.png)
 
-Paso 17. En el menú lateral izquierdo, hasta el final, encontrarás la opción **Developer settings**; da clic.
+Paso 17. En el menú lateral izquierdo, **hasta el final**, encontrarás la opción **Developer settings**; da clic.
 
 Paso 18. Ahora selecciona **Personal access tokens** y luego **Tokens (classic)**.
 
@@ -151,11 +151,11 @@ Paso 8. Entra a la carpeta **src**, escribe el comando: **`cd src`**.
 
 Paso 9. Dentro de la carpeta, ajustarás el archivo llamado **App.js**; escribe el siguiente comando.
 
-**NOTA:** Borra todo el contenido.
-
 ```
 nano App.js
 ```
+
+**NOTA:** Borra todo el contenido.
 
 Paso 10. Ahora copia el siguiente código y pégalo dentro del archivo.
 
@@ -179,15 +179,15 @@ export default App;
 
 **NOTA:** Recuerda confirmar la ventana emergente, clic en el botón **Paste**.
 
+![awscs3](../images/m4/img15.png)
+
 **```CTRL + O```** **`Enter`** `Para guardar el archivo`
 
 **```CTRL + X```** **`Enter`** `Para salir del archivo`
 
-![awscs3](../images/m4/img15.png)
-
 Paso 11. Ajustamos un archivo más llamado **App.css**.
 
-Paso 12. Repite el **paso 9** y escribe el siguiente comando para editarlo:
+Paso 12. Escribe el siguiente comando para editarlo:
 
 ```
 nano App.css
@@ -280,7 +280,7 @@ git checkout -b main
 
 ![awscs5](../images/m4/img17.png)
 
-Paso 3. Ahora escribe el siguiente comando para asociar el repositorio remoto con el local:
+Paso 3. **Edita la propiedad TU_URL_REPO** del siguiente comando para asociar el repositorio remoto con el local **sustituyela por la que guardaste en la tarea 1**:
 
 ```
 git remote add origin TU_URL_REPO
@@ -307,16 +307,7 @@ git config --global user.email "tu_correo_github@example.com"
 git config --global user.name "tu_usuario_github"
 ```
 
-![awscs8](../images/m4/img20.png)
-
-Paso 7. Configura los siguientes datos de tu **cuenta de GitHub**:
-
-```
-git config --global user.email "tu_correo_github@example.com"
-git config --global user.name "tu_usuario_github"
-```
-
-Paso 8. Escribe el comando para rastrear los cambios de los archivos agregados.
+Paso 7. Escribe el comando para rastrear los cambios de los archivos agregados.
 
 ```
 git commit -m "Carga inicial del proyecto app-amplify"
@@ -324,7 +315,7 @@ git commit -m "Carga inicial del proyecto app-amplify"
 
 ![awscs6](../images/m4/img21.png)
 
-Paso 9. Ahora escribe el siguiente comando para subir los archivos rastreados al repositorio remoto.
+Paso 8. Ahora escribe el siguiente comando para subir los archivos rastreados al repositorio remoto.
 
 ```
 git push origin main
@@ -332,9 +323,11 @@ git push origin main
 
 **NOTA:** Te pedirá los datos de tu cuenta de GitHub, **username** y **contraseña**. La contraseña es **tu token** guardado en tu bloc de notas en la tarea 1.
 
+**NOTA IMPORTANTE:** Al ser un campo de contraseña no la veras escrita por seguirdad solo pegala una vez.
+
 ![awscs7](../images/m4/img22.png)
 
-Paso 10. Verifica en tu cuenta de GitHub que los archivos hayan sido cargados correctamente, como lo muestra la imagen.
+Paso 9. Verifica en tu **cuenta de GitHub** que los archivos hayan sido cargados correctamente, como lo muestra la imagen.
 
 ![awscs8](../images/m4/img23.png)
 

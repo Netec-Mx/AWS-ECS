@@ -369,7 +369,7 @@ Paso 15. Da clic en la opción **Test**, escribe el nombre del evento **dataeven
 
 ![lambda25](../images/m2/img29.png)
 
-Paso 16. En la sección inferior **Event JSON** escribe el evento a probar de la función, copia el siguiente código:
+Paso 16. En la sección inferior **Event JSON** borra todo, copia el siguiente código y pegalo:
 
 ```
 {
