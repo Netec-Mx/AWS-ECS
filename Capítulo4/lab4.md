@@ -41,6 +41,8 @@ Paso 3. Clic en el botón **Sign in**.
 
 Paso 4. Una vez autenticado, verifica tu región; para esta práctica lo harás en **Oregon**/**us-west-2**. También puedes consultar la tabla de ayuda.
 
+![region](../images/m1/img2.png)
+
 Paso 5. Ahora abre otra pestaña en tu mismo navegador y entra a la página de **GitHub** o da clic [**Aquí**](https://github.com/).
 
 Paso 6. En la página de bienvenida de **GitHub**, crea una cuenta **si no tienes una**, colocando tu correo electrónico, **`puede ser personal o corporativo`**.
