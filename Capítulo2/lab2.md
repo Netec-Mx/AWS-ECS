@@ -1,4 +1,4 @@
-# Creación de una función AWS Lambda
+# Práctica2. Creación de una función AWS Lambda
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
@@ -27,9 +27,9 @@ En esta tarea explorarás la creación de la función Lambda y sus propiedades.
 
 **NOTA:** Si ya estás autenticado al laboratorio, puedes avanzar al paso 4 y continuar desde ahí.
 
-Paso 1. Inicia sesión en la cuenta de [**AWS**](https://us-east-2.signin.aws.amazon.com/oauth?client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=O9XOfG1TAAeweXyB0WbmZbNsRtOhuxUkQSSJyXLAzcQ&code_challenge_method=SHA-256&response_type=code&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-2_039ecdfecdcea574)
+Paso 1. Iniciar sesión en la cuenta de [**AWS**](https://us-east-2.signin.aws.amazon.com/oauth?client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=O9XOfG1TAAeweXyB0WbmZbNsRtOhuxUkQSSJyXLAzcQ&code_challenge_method=SHA-256&response_type=code&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-2_039ecdfecdcea574)
 
-Paso 2. Dentro de la página, usa las credenciales asignadas en el curso:
+Paso 2. Dentro de la página, usar las credenciales asignadas en el curso:
 
 | Cuenta | Usuario | Contraseña |
 | --- | --- | --- |
@@ -39,19 +39,19 @@ Paso 2. Dentro de la página, usa las credenciales asignadas en el curso:
 
 Paso 3. Clic en el botón **Sign in**.
 
-Paso 4. Una vez autenticado, verifica tu región; para esta práctica lo harás en **Oregon**/**us-west-2**.
+Paso 4. Una vez autenticado, verificar tu región; para esta práctica lo harás en **Oregon**/**us-west-2**.
 
 ![region](../images/m1/img2.png)
 
-Paso 5. Ahora ve al buscador de AWS en la parte superior de la pantalla y escribe **`Lambda`** y da clic en el servicio.
+Paso 5. Ir al buscador de AWS en la parte superior de la pantalla y escribir **`Lambda`** y dar clic en el servicio.
 
 ![lambda](../images/m2/img1.png)
 
-Paso 6. Dentro de la interfaz de la función Lambda, da clic en el botón **Create function**.
+Paso 6. Dentro de la interfaz de la función Lambda, dar clic en el botón **Create function**.
 
 ![lambda1](../images/m2/img2.png)
 
-Paso 7. En la siguiente ventana, define las propiedades de la función como lo muestra la siguiente tabla:
+Paso 7. En la siguiente ventana, definir las propiedades de la función como lo muestra la siguiente tabla:
 
 **NOTA:** Todo lo que no esté definido se queda por defecto.
 
@@ -63,11 +63,11 @@ Paso 7. En la siguiente ventana, define las propiedades de la función como lo m
 
 ![lambda2](../images/m2/img3.png)
 
-Paso 8. Ahora da clic en el botón **Create function**.
+Paso 8. Dar clic en el botón **Create function**.
 
 ![lambda2](../images/m2/img4.png)
 
-Paso 9. Puedes observar las opciones de la función Lambda creada; da clic en cada opción:
+Paso 9. Puedes observar las opciones de la función Lambda creada; dar clic en cada opción:
 
 | Propiedad | Descripción |
 | --- | --- |
@@ -84,19 +84,19 @@ Paso 9. Puedes observar las opciones de la función Lambda creada; da clic en ca
 
 > Has completado la creación de una función Lambda.
 
-### Tarea 2. Ejecución de la función Lambda.
+### Tarea 2. Ejecución de la función Lambda
 
 En esta tarea usarás la Lambda creada previamente para ejecutarla y observar los resultados.
 
-Paso 1. Dentro de la página de detalles de la función Lambda, da clic en la opción **Test**.
+Paso 1. Dentro de la página de detalles de la función Lambda, dar clic en la opción **Test**.
 
 ![lambda3](../images/m2/img6.png)
 
-Paso 2. En el panel inferior **Test event**, mantén seleccionada la opción **Create new event**.
+Paso 2. En el panel inferior **Test event**, mantener seleccionada la opción **Create new event**.
 
-Paso 3. En la propiedad **Event name**, escribe el siguiente nombre: **`dataevent`**.
+Paso 3. En la propiedad **Event name**, escribir el siguiente nombre: **`dataevent`**.
 
-Paso 4. Deja el resto de los valores por defecto y da clic en la opción **Test** en la parte superior derecha.
+Paso 4. Dejar el resto de los valores por defecto y dar clic en la opción **Test** en la parte superior derecha.
 
 ![lambda4](../images/m2/img7.png)
 
@@ -104,11 +104,11 @@ Paso 5. Una vez ejecutada la función, verás el resultado en la parte superior.
 
 ![lambda5](../images/m2/img8.png)
 
-Paso 6. Da clic en la opción **> Details** para expandir los detalles de la ejecución.
+Paso 6. Dar clic en la opción **> Details** para expandir los detalles de la ejecución.
 
 ![lambda6](../images/m2/img9.png)
 
-Paso 7. Analiza los resultados de la función y observa las siguientes propiedades:
+Paso 7. Analizar los resultados de la función y observar las siguientes propiedades:
 
 - Duration
 - Billed Duration
@@ -116,23 +116,23 @@ Paso 7. Analiza los resultados de la función y observa las siguientes propiedad
 - Max Memory Used
 - Init Duration
 
-Paso 8. Repite el paso **4** al menos 6 veces más para realizar varias ejecuciones de la función.
+Paso 8. Repetir el paso **4** al menos 6 veces más para realizar varias ejecuciones de la función.
 
-Paso 9. Ahora cambia a la pestaña **Monitor** para ver las ejecuciones.
+Paso 9. Ahora, cambiar a la pestaña **Monitor** para ver las ejecuciones.
 
 ![lambda7](../images/m2/img10.png)
 
-Paso 10. Observa las métricas de la función Lambda por las ejecuciones.
+Paso 10. Observar las métricas de la función Lambda por las ejecuciones.
 
 **NOTA:** Actualiza varias veces las gráficas, ya que los eventos tardan un momento en aparecer.
 
 ![lambda8](../images/m2/img11.png)
 
-Paso 11. Ahora da clic en el botón **View CloudWatch logs** para ver los logs generados por la Lambda.
+Paso 11. Dar clic en el botón **View CloudWatch logs** para ver los logs generados por la Lambda.
 
 ![lambda9](../images/m2/img12.png)
 
-Paso 12. En la siguiente ventana, en la parte inferior estarán el o los **Log streams**. Da clic en el primero que aparezca.
+Paso 12. En la siguiente ventana, en la parte inferior estarán el o los **Log streams**. Dar clic en el primero que aparezca.
 
 ![lambda10](../images/m2/img13.png)
 
@@ -144,19 +144,19 @@ Paso 13. Dentro del stream, te mostrará todos los mensajes/eventos de la funci�
 
 > Haz completado la ejecución y monitoreo de la función Lambda.
 
-### Tarea 3. Versión y aliases en Lambda.
+### Tarea 3. Versión y aliases en Lambda
 
 En esta tarea crearás una versión de la función Lambda y apuntarás a un alias para identificarla mejor.
 
-Paso 1. Ahora vamos a la sección de **Aliases**.
+Paso 1. Ir a la sección de **Aliases**.
 
 ![lambda12](../images/m2/img15.png)
 
-Paso 2. Ahora da clic en el botón lateral derecho **Create alias**.
+Paso 2. Dar clic en el botón lateral derecho **Create alias**.
 
 ![lambda13](../images/m2/img16.png)
 
-Paso 3. Configura los siguientes datos como lo muestra la tabla:
+Paso 3. Configurar los siguientes datos como lo muestra la tabla:
 
 | Propiedad | Valor |
 | --- | --- |
@@ -168,27 +168,27 @@ Paso 3. Configura los siguientes datos como lo muestra la tabla:
 
 Paso 4. Clic en el botón **Save**.
 
-Paso 5. Ahora regresa a la función raíz dando clic en el menú superior **applambda**.
+Paso 5. Regresar a la función raíz dando clic en el menú superior **applambda**.
 
 ![lambda15](../images/m2/img18.png)
 
-Paso 6. Selecciona la opción de **Versions**.
+Paso 6. Seleccionar la opción de **Versions**.
 
 ![lambda16](../images/m2/img19.png)
 
-Paso 7. Da clic en el botón lateral derecho **Publish new version**.
+Paso 7. Dar clic en el botón lateral derecho **Publish new version**.
 
-Paso 8. En la ventana emergente, escribe la versión: **`1.1.0`** y da clic en el botón **Publish**.
+Paso 8. En la ventana emergente, escribir la versión: **`1.1.0`** y dar clic en el botón **Publish**.
 
-Paso 9. Dentro de las propiedades de la función Lambda con la versión creada, da clic en el botón **Actions**.
+Paso 9. Dentro de las propiedades de la función Lambda con la versión creada, dar clic en el botón **Actions**.
 
 **NOTA:** El número de la versión puede cambiar dependiendo de las implementaciones.
 
-Paso 10. En el submenú elige **Create alias**.
+Paso 10. En el submenú elegir **Create alias**.
 
 ![lambda17](../images/m2/img20.png)
 
-Paso 11. Escribe los siguientes datos para el alias.
+Paso 11. Escribir los siguientes datos para el alias.
 
 **NOTA:** Recuerda que el valor de la versión puede ser diferente dependiendo de las veces implementada. 
 
@@ -200,15 +200,15 @@ Paso 11. Escribe los siguientes datos para el alias.
 
 ![lambda18](../images/m2/img21.png)
 
-Paso 12. Da clic en el botón **Save**.
+Paso 12. Dar clic en el botón **Save**.
 
-Paso 13. Ahora regresa a la función raíz dando clic en el menú superior **applambda**.
+Paso 13. Regresar a la función raíz dando clic en el menú superior **applambda**.
 
-Paso 14. Da clic en la sección de **Aliases** para ver los 2 aliases creados como en la siguiente imagen.
+Paso 14. Dar clic en la sección de **Aliases** para ver los 2 aliases creados como en la siguiente imagen.
 
 ![lambda19](../images/m2/img22.png)
 
-Paso 15. Ahora da clic en la opción **Versions**.
+Paso 15. Dar clic en la opción **Versions**.
 
 ![lambda20](../images/m2/img23.png)
 
@@ -224,11 +224,11 @@ Paso 1. Da clic en la sección de **Code**.
 
 ![lambda21](../images/m2/img24.png)
 
-Paso 2. Da clic en la opción **Upload from** y en el menú desplegable selecciona **Amazon S3 location**.
+Paso 2. Dar clic en la opción **Upload from** y en el menú desplegable seleccionar **Amazon S3 location**.
 
 ![lambda22](../images/m2/img25.png)
 
-Paso 3. En la ventana emergente coloca la siguiente URL que actualizará el código y da clic en el botón **Save**.
+Paso 3. En la ventana emergente colocar la siguiente URL que actualizará el código y dar clic en el botón **Save**.
 
 ```
 https://s3.us-west-2.amazonaws.com/labs.netec.com/courses/AWS-ECS/v0.0.1/lambda-java-example-1.0-SNAPSHOT.jar
@@ -331,23 +331,23 @@ public class LambdaHandler implements RequestHandler<Map<String, Object>, String
 }
 ```
 
-Paso 4. Una vez guardada la actualización de código, ahora ve a la propiedad de **Runtime settings** en la parte inferior.
+Paso 4. Una vez guardada la actualización de código, ir a la propiedad de **Runtime settings** en la parte inferior.
 
 ![lambda22](../images/m2/img26.png)
 
-Paso 5. Da clic en el botón **Edit** y ajusta la propiedad **Handler**. Escribe lo siguiente: **`com.example.LambdaHandler::handleRequest`**.
+Paso 5. Dar clic en el botón **Edit** y ajustar la propiedad **Handler**. Escribe lo siguiente: **`com.example.LambdaHandler::handleRequest`**.
 
 ![lambda23](../images/m2/img27.png)
 
 Paso 6. Clic en el botón **Save**.
 
-Paso 7. Ve a la sección de **Versions** dentro de la Lambda.
+Paso 7. Ir a la sección de **Versions** dentro de la Lambda.
 
-Paso 8. Clic en el botón **Publish new version** y en la ventana emergente escribe: **1.1.1**.
+Paso 8. Clic en el botón **Publish new version** y en la ventana emergente escribir: **1.1.1**.
 
 Paso 9. Clic en el botón **Publish**.
 
-Paso 10. Da clic en el menú **Actions** de la parte superior derecha, en el menú desplegable selecciona **Create alias**.
+Paso 10. Dar clic en el menú **Actions** de la parte superior derecha, en el menú desplegable selecciona **Create alias**.
 
 Paso 11. En la ventana emergente escribe lo siguiente:
 
@@ -361,15 +361,15 @@ Paso 11. En la ventana emergente escribe lo siguiente:
 
 Paso 12. Clic en el botón **Save**.
 
-Paso 13. Ahora da clic en el menú superior para regresar a la Lambda **applambda** y selecciona la opción inferior **Versions**.
+Paso 13. Dar clic en el menú superior para regresar a la Lambda **applambda** y seleccionar la opción inferior **Versions**.
 
-Paso 14. Da clic en el hipervínculo del número **2** de la versión que aparece.
+Paso 14. Dar clic en el hipervínculo del número **2** de la versión que aparece.
 
-Paso 15. Da clic en la opción **Test**, escribe el nombre del evento **dataevent**.
+Paso 15. Dar clic en la opción **Test**, escribir el nombre del evento **dataevent**.
 
 ![lambda25](../images/m2/img29.png)
 
-Paso 16. En la sección inferior **Event JSON** borra todo, copia el siguiente código y pegalo:
+Paso 16. En la sección inferior **Event JSON** borrar todo, copiar el siguiente código y pegarlo:
 
 ```
 {
@@ -377,7 +377,7 @@ Paso 16. En la sección inferior **Event JSON** borra todo, copia el siguiente c
 }
 ```
 
-Paso 17. Finalmente, da clic en el botón superior **Test** y verás el resultado procesado por la nueva función.
+Paso 17. Finalmente, dar clic en el botón superior **Test** y verás el resultado procesado por la nueva función.
 
 ![lambda26](../images/m2/img30.png)
 
