@@ -1,4 +1,4 @@
-# Práctica 4. Creación de un clúster de Amazon ECS altamente disponible 
+# Práctica 3. Creación de un clúster de Amazon ECS altamente disponible 
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
