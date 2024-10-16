@@ -2,7 +2,8 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Conocer cómo crear un repositorio en Amazon ECR, subir (push) imágenes de contenedores al repositorio y descargar (pull) esas imágenes en un entorno de trabajo, utilizando comandos de la CLI y Docker.
+- Conocer cómo crear un repositorio en Amazon ECR.
+- Subir (push) imágenes de contenedores al repositorio y descargar (pull) esas imágenes en un entorno de trabajo, utilizando comandos de la CLI y Docker.
 
 ## Objetivo Visual 
 
@@ -73,7 +74,7 @@ aws s3 cp s3://labs.netec.com/courses/AWS-ECS/v0.0.1/demoapp . --recursive
 
 En esta tarea crearás el archivo Dockerfile para compilarlo y generar la imagen Docker.
 
-Paso 1. Primero, crear el archivo **Dockerfile**, dentro de la terminal de AWS, escribir el siguiente comando:
+Paso 1. Crear el archivo **Dockerfile**, dentro de la terminal de AWS, escribir el siguiente comando:
 
 ```
 nano Dockerfile
@@ -119,7 +120,7 @@ Paso 3. Cuando ya estés listo, ejecutar las siguientes combinaciones de teclas 
 
 **NOTA:** Puedes escribir el siguiente comando despues de haber guardado el archivo para verificar el contenido **`cat Dockerfile`**.
 
-Paso 4. Ahora. compilar la **imagen Docker** mediante el siguiente comando:
+Paso 4. Compilar la **imagen Docker** mediante el siguiente comando:
 
 ```
 docker build -t demoapp:v1.0.0 .
@@ -145,11 +146,11 @@ Paso 7. La imagen no podrá ser probada por el momento, ya que estás en la term
 
 > Has completado la creación de la imagen del contenedor.
 
-### Tarea 3. Creación del registro Amazon ECR y carga de la imagen.
+### Tarea 3. Creación del registro Amazon ECR y carga de la imagen
 
 En esta tarea crearás el repositorio privado en Amazon ECR y cargarás la imagen creada en la tarea anterior al repositorio.
 
-Paso 1. Ahora, ir al buscador de AWS en la parte superior de la pantalla y escribir **`Elastic Container Registry`** y dar clic en el servicio.
+Paso 1. Ir al buscador de AWS en la parte superior de la pantalla y escribir **`Elastic Container Registry`** y dar clic en el servicio.
 
 ![ecrrepo](../images/m1/img9.png)
 
@@ -172,9 +173,9 @@ Paso 4. Clic en el botón **Create** y verificar la creación exitosa:
 
 ![ecrrepo2](../images/m1/img11.png)
 
-Paso 5. Ahora **autentícate** al repositorio de **Amazon ECR**. De vuelta a la terminal, escribir el siguiente comando:
+Paso 5. Ahora **autentificarse** al repositorio de **Amazon ECR**. De vuelta a la terminal, escribir el siguiente comando:
 
-**NOTA:** Dentro del siguiente comando, identifica las siguientes propiedades: **`<region>`** (2) y **`<account-id>`** (1). **Sustitúyelos por los valores asignados al curso**.
+**NOTA:** Dentro del siguiente comando, identificar las siguientes propiedades: **`<region>`** (2) y **`<account-id>`** (1). **Sustitúyelos por los valores asignados al curso**.
 
 **NOTA:** Puedes editar primero el comando en un bloc de notas y después pegarlo en la terminal.
 
@@ -195,7 +196,7 @@ docker tag demoapp:v1.0.0 <account-id>.dkr.ecr.<region>.amazonaws.com/<repositor
 
 **NOTA:** El comando no dará una salida, pero puedes validar el etiquetado escribiendo el siguiente comando: ```docker images```.
 
-Paso 7. Ahora, proceder a **cargar la imagen Docker**, escribir el siguiente comando en la terminal **AWS Cloud Shell**:
+Paso 7. Proceder a **cargar la imagen Docker**, escribir el siguiente comando en la terminal **AWS Cloud Shell**:
 
 **NOTA:** Sustituir los siguientes valores en tu bloc de notas: **`<account-id>`**, **`<region>`** y **`<repository-name>`**.
 
