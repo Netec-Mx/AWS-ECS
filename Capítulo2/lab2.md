@@ -82,7 +82,7 @@ Paso 9. Puedes observar las opciones de la función Lambda creada; dar clic en c
 
 **¡TAREA FINALIZADA!**
 
-> Has completado la creación de una función Lambda.
+> Haz completado la creación de una función Lambda.
 
 ### Tarea 2. Ejecución de la función Lambda
 
@@ -214,7 +214,7 @@ Paso 15. Dar clic en la opción **Versions**.
 
 **¡TAREA FINALIZADA!**
 
-> Has completado la creación de versiones y alias en la función Lambda.
+> Haz completado la creación de versiones y alias en la función Lambda.
 
 ### Tarea 4. Actualización de la función Lambda
 
