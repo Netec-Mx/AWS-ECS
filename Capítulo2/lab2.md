@@ -1,4 +1,4 @@
-# Práctica2. Creación de una función AWS Lambda
+# Práctica 2. Creación de una función AWS Lambda
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
