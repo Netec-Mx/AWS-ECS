@@ -68,7 +68,7 @@ aws s3 cp s3://labs.netec.com/courses/AWS-ECS/v0.0.1/demoapp . --recursive
 
 **¡TAREA FINALIZADA!**
 
-> Has completado la descarga de los archivos de la aplicación.
+> Haz completado la descarga de los archivos de la aplicación.
 
 ### Tarea 2. Creación de la imagen Docker
 
@@ -144,7 +144,7 @@ Paso 7. La imagen no podrá ser probada por el momento, ya que estás en la term
 
 **¡TAREA FINALIZADA!**
 
-> Has completado la creación de la imagen del contenedor.
+> Haz completado la creación de la imagen del contenedor.
 
 ### Tarea 3. Creación del registro Amazon ECR y carga de la imagen
 
@@ -220,7 +220,7 @@ Paso 11. Dar clic en el nombre de la imagen **app-v1.0.0** y analizar las propie
 
 **¡TAREA FINALIZADA!**
 
-> Has finalizado la creación del repositorio en Amazon ECR, la compilación y carga de una imagen Docker.
+> Haz finalizado la creación del repositorio en Amazon ECR, la compilación y carga de una imagen Docker.
 
 ### Tarea 4. Descarga de la imagen Docker desde Amazon ECR.
 
@@ -250,7 +250,7 @@ Paso 3. Ya copiado, ir a la terminal de **AWS Cloud Shell** y escribir **`docker
 
 **¡TAREA FINALIZADA!**
 
-> Has terminado la tarea donde descargaste exitosamente la imagen desde el repositorio en **Amazon ECR**.
+> Haz terminado la tarea donde descargaste exitosamente la imagen desde el repositorio en **Amazon ECR**.
 
 ### Resultado final esperado
 
