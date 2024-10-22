@@ -258,3 +258,7 @@ Paso 3. Ya copiado, ir a la terminal de **AWS Cloud Shell** y escribir **`docker
 El resultado es que la imagen se haya cargado correctamente al repositorio de **Amazon ECR**.
 
 ![resultado](../images/m1/img20.png)
+
+## [Índice](../README.md)
+
+## [Práctica 2. Creación de una función AWS Lambda](../Capítulo2/lab2.md)
