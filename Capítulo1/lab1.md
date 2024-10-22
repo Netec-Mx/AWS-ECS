@@ -35,17 +35,17 @@ Paso 2. Dentro de la página, usar las credenciales asignadas en el curso:
 
 ![isession](../images/m1/img1.png)
 
-Paso 3. Clic en el botón **Sign in**
+Paso 3. Clic en el botón **Sign in**.
 
-Paso 4. Una vez autenticado, verificar tu región. Para esta práctica lo harás en **Oregon**/**us-west-2**
+Paso 4. Una vez autenticado, verificar tu región. Para esta práctica lo harás en **Oregon**/**us-west-2**.
 
 ![region](../images/m1/img2.png)
 
-Paso 5. En la barra superior derecha, dar clic en el ícono de **AWS Cloud Shell**, el cual abrirá un panel inferior con la **Terminal de AWS**
+Paso 5. En la barra superior derecha, dar clic en el ícono de **AWS Cloud Shell**, el cual abrirá un panel inferior con la **Terminal de AWS**.
 
 ![awscshell](../images/m1/img3.png)
 
-Paso 6. En la terminal vamos a **descargar los archivos**. **Escribir** el siguiente comando o puedes **copiarlo** si prefieres y dar **Enter**:
+Paso 6. En la terminal **descargar los archivos**. **Escribir** el siguiente comando, o puedes **copiarlo** si prefieres, y dar **Enter**:
 
 ```
 aws s3 cp s3://labs.netec.com/courses/AWS-ECS/v0.0.1/demoapp . --recursive
@@ -80,9 +80,9 @@ Paso 1. Crear el archivo **Dockerfile**, dentro de la terminal de AWS, escribir 
 nano Dockerfile
 ```
 
-Paso 2. Dentro del archivo **copiar** y **pegar** el siguiente código que define las instrucciones del Docker.
+Paso 2. Dentro del archivo, **copiar** y **pegar** el siguiente código que define las instrucciones del Docker.
 
-**NOTA IMPORTANTE:** En la sección **ZONA HORARIA** del archivo, **descomentar** y **comentar** la zona adecuada a la ubicación actual. **Si tienes dudas, pregunta al instructor**
+**NOTA IMPORTANTE:** En la sección **ZONA HORARIA** del archivo, **descomentar** y **comentar** la zona adecuada a la ubicación actual. **Si tienes dudas, pregunta al instructor**.
 
 ```
 FROM ubuntu:20.04
@@ -108,7 +108,7 @@ EXPOSE 80
 CMD [ "apachectl", "-D", "FOREGROUND" ]
 ```
 
-**NOTA:** Si aparece la siguiente imagen, dar clic en el botón **Paste**
+**NOTA:** Si aparece la siguiente imagen, dar clic en el botón **Paste**.
 
 ![dockerfile](../images/m1/img6.png)
 
@@ -162,7 +162,7 @@ Paso 3. En la sección **Repository name**, escribir el nombre del repositorio. 
 
 | Propiedad| Valor | Descripcíon |
 | --- | --- | --- |
-| **Repository name** | **demoappecr**. Solo en caso de que no te deje crear el repositorio, agrega `3 números aleatorios` al final | Nombre del repositorio |
+| **Repository name** | **demoappecr**. Solo en caso de que no te deje crear el repositorio, agregar `3 números aleatorios` al final | Nombre del repositorio |
 | **Image tag mutability** | **Immutable** | Imagen por cada cambio o imagen sobreescrita |
 | **Encryption configuration** | **AES-256** | Encriptación en sitio para las imágenes |
 | **Image Scanning settings** | Scan on push **ON** | Activación del escaneo de la imagen                  |
