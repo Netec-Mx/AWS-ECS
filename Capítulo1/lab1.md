@@ -13,6 +13,7 @@ Al finalizar la práctica, serás capaz de:
 - 40 minutos.
 
 ## Tabla de ayuda:
+
 | Región     | Usuario  |
 |------------|----------|
 | us-west-2  | student  |
