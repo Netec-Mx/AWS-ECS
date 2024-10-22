@@ -19,7 +19,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Creación de un clúster de Amazon ECS.
+### Tarea 1. Creación de un clúster de Amazon ECS
 
 En esta tarea crearás un clúster de Amazon ECS.
 
@@ -108,7 +108,7 @@ Paso 12. Dar clic en el nombre del cluster **AppCluster** y verificar que el cl�
 
 > Haz completado la creación de un clúster de Amazon ECS.
 
-### Tarea 2. Obtención de la URI del contenedor.
+### Tarea 2. Obtención de la URI del contenedor
 
 Paso 1. Ir al buscador de AWS en la parte superior de la pantalla y escribir **`Elastic Container Registry`**. Dar clic derecho y seleccionar **Abrir enlace en una pestaña nueva**.
 
@@ -183,7 +183,7 @@ Paso 7. Verificar el estado de la tarea creada.
 
 > Haz completado la definición del contenedor mediante la tarea de Amazon ECS.
 
-### Tarea 4. Creación de un Target Group.
+### Tarea 4. Creación de un Target Group
 
 En la siguiente tarea crearás el Target Group que referenciará los servidores de EC2 desplegados por el servicio de Amazon ECS.
 
@@ -352,7 +352,7 @@ Paso 8. El servicio desplegará las tareas dentro de los servidores, **espera un
 
 > Haz completado la creación del servicio que despliega los contenedores en los servidores EC2.
 
-### Tarea 7. Prueba de la Aplicación altamente Disponible.
+### Tarea 7. Prueba de la Aplicación altamente Disponible
 
 Paso 1. Abrir una **pestaña nueva** en tu navegador u otro que tengas disponible y ahí **pegar el DNS** del balanceador que guardaste en el bloc de notas.
 
