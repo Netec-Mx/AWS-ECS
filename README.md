@@ -6,10 +6,10 @@ En este curso explorarás cuatro servicios esenciales de AWS: Amazon Elastic Con
 
 ## Índice:
 
--[Práctica 1. Creación e interacción con Amazon ECR](./Capítulo1/lab1.md) 
+- [Práctica 1. Creación e interacción con Amazon ECR](./Capítulo1/lab1.md) 
 
--[Práctica 2. Creación de una función AWS Lambda](./Capítulo2/lab2.md)
+- [Práctica 2. Creación de una función AWS Lambda](./Capítulo2/lab2.md)
 
--[Práctica 3. Creación de un cluster de Amazon ECS altamente](./Capítulo3/lab3.md)
+- [Práctica 3. Creación de un cluster de Amazon ECS altamente](./Capítulo3/lab3.md)
 
--[Práctica 4. Despliegue de una aplicación mediante AWS Amplify](./Capítulo4/lab4.md)
+- [Práctica 4. Despliegue de una aplicación mediante AWS Amplify](./Capítulo4/lab4.md)
