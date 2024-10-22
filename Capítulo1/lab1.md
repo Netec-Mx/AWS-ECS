@@ -222,7 +222,7 @@ Paso 11. Dar clic en el nombre de la imagen **app-v1.0.0** y analizar las propie
 
 > Haz finalizado la creación del repositorio en Amazon ECR, la compilación y carga de una imagen Docker.
 
-### Tarea 4. Descarga de la imagen Docker desde Amazon ECR.
+### Tarea 4. Descarga de la imagen Docker desde Amazon ECR
 
 En esta tarea realizarás la **descarga** de la imagen Docker desde Amazon ECR mediante la terminal de **AWS Cloud Shell**.
 
@@ -244,7 +244,7 @@ Paso 2. ¡Muy bien! Ahora, ir a **Amazon ECR** > **clic** en tu repositorio > **
 
 Paso 3. Ya copiado, ir a la terminal de **AWS Cloud Shell** y escribir **`docker pull`** y **pegar** el valor de la **URI** de la imagen.
 
-**NOTA:** Recuerda que para descargar la imagen debes estar autenticado. Si te da error de autenticación, realiza el paso **# 5** de la **Tarea #3**.
+**NOTA:** Recuerda que para descargar la imagen debes estar autenticado. Si te da error de autenticación, realiza el paso **# 5** de la **Tarea #3**
 
 ![ecrrepo9](../images/m1/img19.png)
 
