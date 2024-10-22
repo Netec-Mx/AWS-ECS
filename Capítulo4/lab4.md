@@ -19,7 +19,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Instrucciones 
 
-### Tarea 1. Creación o autenticación de GitHub.
+### Tarea 1. Creación o autenticación de GitHub
 
 En esta tarea crearás una cuenta de GitHub o te autenticarás para cargar el proyecto de AWS Amplify.
 
@@ -135,7 +135,7 @@ npx create-react-app app-amplify
 
 ![awscs1](../images/m4/img13.png)
 
-**NOTA:** Si te pide confirmar los paquetes a instalar, escribe **y**.
+**NOTA:** Si te pide confirmar los paquetes a instalar, escribir **y**.
 
 Paso 4. Comenzar la descarga e instalación de los paquetes.
 
@@ -143,7 +143,7 @@ Paso 4. Comenzar la descarga e instalación de los paquetes.
 
 **NOTA:** Esperar el proceso de inicialización; puede tardar de **1 a 5 minutos**.
 
-Paso 5. Una vez terminado, puedes escribir el comando **`ls`** para ver el directorio.
+Paso 5. Una vez terminado, escribir el comando **`ls`** para ver el directorio.
 
 Paso 6. Ingresar al directorio creado, escribir el comando: **`cd app-amplify`**.
 
@@ -157,7 +157,7 @@ Paso 9. Dentro de la carpeta, ajustar el archivo llamado **App.js**; escribir el
 nano App.js
 ```
 
-**NOTA:** Borra todo el contenido.
+**NOTA:** Borrar todo el contenido.
 
 Paso 10. Copiar el siguiente código y pegarlo dentro del archivo.
 
@@ -187,7 +187,7 @@ export default App;
 
 **```CTRL + X```** **`Enter`** `Para salir del archivo`
 
-Paso 11. Ajustamos un archivo más llamado **App.css**.
+Paso 11. Ajustar un archivo más llamado **App.css**.
 
 Paso 12. Escribir el siguiente comando para editarlo:
 
@@ -195,7 +195,7 @@ Paso 12. Escribir el siguiente comando para editarlo:
 nano App.css
 ```
 
-**NOTA:** Borra todo el contenido.
+**NOTA:** Borrar todo el contenido.
 
 Paso 13. Copiar el siguiente código y pegarlo dentro del archivo.
 
@@ -254,7 +254,7 @@ p {
 
 > Haz completado la descarga de los paquetes con React y los ajustes de la aplicación básica.
 
-### Tarea 3. Carga de archivos a GitHub.
+### Tarea 3. Carga de archivos a GitHub
 
 En esta tarea cargarás los archivos al repositorio creado en la tarea 1.
 
